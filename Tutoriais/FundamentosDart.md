@@ -144,4 +144,23 @@ void main() {
 }
 ```
 
-## 2. Controle de Fluxo (if, loops)
+## 3. Funções e Métodos
+
+### - No Dart, funções e métodos são blocos de código reutilizáveis que realizam uma tarefa específica. As funções podem ser definidas de maneira independente, enquanto os métodos são funções associadas a uma classe ou objeto.
+
+```dart
+void saudacao() {
+  print('Olá, mundo!');
+}
+
+int soma(int a, int b) {
+  return a + b;
+}
+
+void main() {
+  saudacao(); // Chamada da função
+  int resultado = soma(5, 3); 
+  print('Resultado da soma: $resultado');
+}
+```
+
