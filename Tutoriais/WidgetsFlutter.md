@@ -32,6 +32,7 @@ class MeuApp extends StatelessWidget {
   }
 }
 ```
+<div style="text-align: center;"> <img src="./SrcWidgets/ExemploStateLessWidget.png" alt="Exemplo StatelessWidget" width="400"/> <p><em>Figura 1: Exemplo de StatelessWidget com um AppBar na interface inicial.</em></p> </div> 
 
 # StatefulWidget: Estado Mutável no Flutter
 
