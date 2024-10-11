@@ -115,3 +115,34 @@ void main() {
 
 
 ```
+
+**While**: Executa o bloco de código enquanto a condição for verdadeira.
+
+```dart
+void main() {
+  int contador = 0;
+
+  while (contador < 5) {
+    print('Contador: $contador');
+    contador++;
+  }
+}
+
+
+```
+
+**Do-while**: Executa o bloco de código pelo menos uma vez.
+
+```dart
+void main() {
+  int contador = 0;
+
+  do {
+    print('Contador: $contador');
+    contador++;
+  } while (contador < 5);
+}
+
+
+
+```
