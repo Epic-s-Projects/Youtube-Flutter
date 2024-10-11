@@ -49,3 +49,69 @@ void main() {
 }
 
 ```
+
+## 2. Controle de Fluxo (if, loops)
+
+### - O controle de fluxo em Dart permite que você execute blocos de código de forma condicional ou repetitiva, dependendo de certas condições.
+
+**If's**: São usados para tomar decisões baseadas em uma condição booleana. Se a condição for verdadeira, o código dentro do bloco será executado.
+
+```dart
+void main() {
+  int idade = 18;
+
+  if (idade >= 18) {
+    print('Você é maior de idade.');
+  } else if (idade >= 13) {
+    print('Você é adolescente.');
+  } else {
+    print('Você é criança.');
+  }
+}
+
+```
+
+**Switch**: O switch é usado para testar múltiplas condições baseadas em um valor.
+
+```dart
+void main() {
+  String cor = 'vermelho';
+
+  switch (cor) {
+    case 'vermelho':
+      print('Cor quente.');
+      break;
+    case 'azul':
+      print('Cor fria.');
+      break;
+    default:
+      print('Cor não reconhecida.');
+  }
+}
+
+```
+
+**For**: Executa um bloco de código um número específico de vezes.
+
+```dart
+void main() {
+  for (int i = 0; i < 5; i++) {
+    print('Contagem: $i');
+  }
+}
+
+```
+
+**For-in**: Usado para percorrer todos os elementos de uma coleção.
+
+```dart
+void main() {
+  List<String> frutas = ['Maçã', 'Banana', 'Laranja'];
+
+  for (var fruta in frutas) {
+    print(fruta);
+  }
+}
+
+
+```
