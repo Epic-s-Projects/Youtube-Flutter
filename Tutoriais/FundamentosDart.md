@@ -164,3 +164,48 @@ void main() {
 }
 ```
 
+## 4. Classes e Objetos
+
+### - Em Dart, classes são usadas como moldes para criar objetos. As classes permitem organizar e encapsular dados e comportamentos relacionados em um único lugar.
+
+```dart
+class Carro {
+  String modelo;
+  int ano;
+
+  Carro(this.modelo, this.ano);
+
+  void mostrarDetalhes() {
+    print('Modelo: $modelo, Ano: $ano');
+  }
+}
+
+void main() {
+  Carro meuCarro = Carro('Fusca', 1972);
+  meuCarro.mostrarDetalhes();
+}
+
+```
+
+### - Em Dart, os atributos e métodos de uma classe podem ser controlados com encapsulamento usando o prefixo underscore (_).
+
+```dart
+class ContaBancaria {
+  String _titular;
+  double _saldo;
+
+  ContaBancaria(this._titular, this._saldo);
+
+  double get saldo => _saldo;
+
+  void depositar(double valor) {
+    _saldo += valor;
+  }
+}
+
+void main() {
+  ContaBancaria conta = ContaBancaria('Vinícius', 1000.0);
+  conta.depositar(500.0);
+}
+
+```
