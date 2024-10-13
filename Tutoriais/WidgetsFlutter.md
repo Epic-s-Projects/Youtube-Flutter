@@ -96,7 +96,7 @@ class MyButtonState extends State<MyButton> {
   }
 }
 ```
-<div style="text-align: center;"> <img src="./SrcWidgets/ExemploStateFulWidgets.mp4" alt="Exemplo StatelessWidget" width="400"/> <p><em>Figura 1: Esse é um exemplo de uma aplicação que ao apertar o botão as palavras mudam. Perfeito exemplo de StateFullWidget.</em></p> </div>
+<div style="text-align: center;"> <img src="./SrcWidgets/ExemploStateFulWidgets - Copia.gif" alt="Exemplo StatelessWidget" width="400"/> <p><em>Figura 1: Esse é um exemplo de uma aplicação que ao apertar o botão as palavras mudam. Perfeito exemplo de StateFullWidget.</em></p> </div>
 
 
 
