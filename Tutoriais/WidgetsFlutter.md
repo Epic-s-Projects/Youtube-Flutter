@@ -132,22 +132,6 @@ Column(
   ],
 )
 ```
-Neste exemplo, o ícone de estrela será exibido à esquerda e o texto "Favorito" ao lado dele, horizontalmente.
-
-## Column
-
-- Alinha os widgets verticalmente (um embaixo do outro).
-- Ideal para listas de elementos como botões ou textos.
-
-### Exemplo:
-```dart
-Column(
-  children: [
-    Text('Título'),
-    Text('Subtítulo'),
-  ],
-)
-```
 Aqui, o texto "Título" aparece no topo e "Subtítulo" logo abaixo dele.
 
 ## Stack
