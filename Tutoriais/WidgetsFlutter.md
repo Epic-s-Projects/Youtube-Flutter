@@ -96,7 +96,7 @@ class MyButtonState extends State<MyButton> {
   }
 }
 ```
-<div style="text-align: center;"> <img src="./SrcWidgets/ExemploStateFulWidgets - Copia.gif" alt="Exemplo StatelessWidget" width="400"/> <p><em>Figura 1: Esse é um exemplo de uma aplicação que ao apertar o botão as palavras mudam. Perfeito exemplo de StateFullWidget.</em></p> </div>
+<div style="text-align: center;"> <img src="./SrcWidgets/ExemploStateFulWidgets.gif" alt="Exemplo StatelessWidget" width="400"/> <p><em>Figura 2: Esse é um exemplo de uma aplicação que ao apertar o botão as palavras mudam. Perfeito exemplo de StateFullWidget.</em></p> </div>
 
 
 
@@ -175,6 +175,9 @@ Este exemplo coloca um texto ("Legenda") sobre a imagem, posicionando-o no canto
 - **Row**: Alinhamento horizontal.
 - **Column**: Alinhamento vertical.
 - **Stack**: Widgets sobrepostos.
+
+<div style="text-align: center;"> <img src="./SrcWidgets/ExemploRowColumnStack.gif" alt="Exemplo StatelessWidget" width="400"/> <p><em>Figura 3.</em></p> </div>
+
 
 ## Navigator
 
@@ -282,6 +285,9 @@ class SegundaPagina extends StatelessWidget {
 - **Navigator.push**: Navega para uma nova página, empilhando-a.
 - **Navigator.pop**: Retorna para a página anterior, removendo a página atual da pilha.
 - Pode-se passar dados entre páginas e retornar valores.
+
+<div style="text-align: center;"> <img src="./SrcWidgets/ExemploNavigator.gif" alt="Exemplo StatelessWidget" width="400"/> <p><em>Figura 4</em></p> </div>
+
 ## Formulários e Validação
 
 No Flutter, você pode criar formulários usando o widget **Form**, que permite organizar campos de entrada e aplicar validação para garantir que os dados inseridos estão corretos. O widget **Form** funciona em conjunto com **TextFormField** e um **GlobalKey** para controlar o estado do formulário e realizar validações.
@@ -398,3 +404,5 @@ class _FormularioExemploState extends State<FormularioExemplo> {
 - **Form** e **TextFormField** são usados para criar formulários.
 - O **validator** permite adicionar regras de validação personalizadas.
 - O método **validate()** é usado para verificar se todos os campos estão corretos antes de continuar com ações como enviar dados ou salvar informações.
+
+  <div style="text-align: center;"> <img src="./SrcWidgets/ExemploFormularioValidacao.gif" alt="Exemplo StatelessWidget" width="400"/> <p><em>Figura 5.</em></p> </div>
